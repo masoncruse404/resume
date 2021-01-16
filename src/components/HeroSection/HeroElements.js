@@ -49,17 +49,22 @@ export const HeroContent = styled.div`
  z-index:3;
  max-width:1200px;
  position:absolute;
- padding: 8px 24px;
+ bottom:0;
+ margin-bottom:125px;
+ padding: 18px 24px;
  display:flex;
  flex-direction:column;
  align-items:center;
 `;
 
 export const HeroH1 = styled.h1`
+ position:absolute;
+ top:80;
+ margin-bottom:20px;
  color:#fff;
  font-size:48px;
  text-align:center;
-
+ 
  @media screen and (max-width:768px){
      font-size:40px;
  }
@@ -70,7 +75,7 @@ export const HeroH1 = styled.h1`
 `;
 
 export const HeroP = styled.p`
- margin-top: 24px;
+
  color:#fff;
  font-size:24px;
  text-align:center;
@@ -100,5 +105,14 @@ export const ArrowRight = styled(MdArrowForward)`
  margin-left:8px;
  font-size:20px;
 `;
+
+
+export const HeroInfoWrap = styled.div`
+
+
+ display:flex;
+ align-items:center;
+ flex-direction:column;
+`
 
 

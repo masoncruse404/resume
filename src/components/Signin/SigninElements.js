@@ -28,6 +28,19 @@ export const FormWrap = styled.div`
  }
 `;
 
+export const AlertSuccess = styled.div`
+text-align:center;
+    z-index:9999;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top:0;
+    font-family: 'roboto',arial;
+    display:none;
+`;
+
 
 export const Icon = styled(Link)`
  margin-left:32px;
@@ -45,6 +58,7 @@ export const Icon = styled(Link)`
 
 export const FormContent = styled.div`
  height:100%;
+ min-width:600px;
  display:flex;
  flex-direction:column;
  justify-content:center;
@@ -56,13 +70,13 @@ export const FormContent = styled.div`
 
 export const Form = styled.form`
  background:#010101;
- max-width:400px;
+ max-width:650px;
  height:auto;
  width:100%;
  z-index:1;
  display:grid;
  margin:0 auto;
- padding: 80px 32px;
+ padding: 80px 52px;
  border-radius:4px;
  box-shadow:0 1px 3px rgba(0,0,0,0.9);
 
@@ -87,6 +101,7 @@ export const FormInput = styled.input`
 `;
 
 export const FormInputTextArea = styled.textarea`
+ padding:15px 15px;
  height:250px;
  margin-bottom:32px;
  border:none;

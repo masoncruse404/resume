@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
 export const ServicesContainer = styled.div`
- height:800px;
+ height:600px;
  display:flex;
  flex-direction:column;
- justify-content:center;
+ justify-content:start;
  align-items:center;
  background:#010606;
 
@@ -55,7 +55,6 @@ export const ServicesCard = styled.div`
  &:hover{
      transfrom:scale(1.02);
      transition: all 0.2s ease-in-out;
-     cursor:pointer;
 
  }
 `

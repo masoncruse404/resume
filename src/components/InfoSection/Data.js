@@ -3,11 +3,11 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    link:'home',
+    link:'http://google.com',
     topLine: 'Mason Cruse',
     headline:'Full Stack Developer ',
     headlineFontSize:'30px',
-    description:'Possess a Bachelor of Science in Computer Science and a minor in mathematics from Texas State. Obtained a cPanel Sysadmin Skills Development Certification. Ambitious Full Stack Developer passionate about, always improving, problem solving, building and optimizing the user experience, parallel programming, and computer security. ',
+    description:'From the time I was a small child, I have had the intrinsic desire to understand how technology worked and operated. This led me on a mission to take apart every technological device within my reach for just a glimps at the mystery that was within. This curiosity then translated into a love for computers, and how they operate at the lowest level getting down to the nitty-gritty details. I receieved a Bachelor of Science in Computer Science and a minor in mathematics from Texas State. Next, I obtained a cPanel Sysadmin Skills Development Certification. I am an ambitious Full Stack Developer passionate about problem solving, building and optimizing the user experience, parallel programming, computer security, and continually learning new skills. ',
     buttonLabel: 'Contact Me',
     imgStart: true,
     img: require('../../images/profile.svg').default,
@@ -27,7 +27,7 @@ export const homeObjTwo = {
     lightTextDesc: false,
     topLine: 'PATHFINDING',
     headline:'Visual Javascript A*',
-    description:'A* (pronounced as "A star") is a computer algorithm that is widely used in pathfinding and graph traversal. The algorithm efficiently plots a walkable path between multiple nodes, or points, on the graph.',
+    description:'A* is a computer algorithm that is widely used in pathfinding and graph traversal. The algorithm efficiently plots a walkable path between multiple nodes, or points, on the graph.',
     buttonLabel: 'Demo A*',
     imgStart: false,
     img: require('../../images/svg-2.svg').default,
@@ -73,7 +73,7 @@ export const homeObjFour = {
     img: require('../../images/svg-4.svg').default,
     alt: 'Map',
     dark: true,
-    link:'home',
+    link:'https://github.com/masoncruse404/myshell',
     primary: true,
     darkText: true,
    /*  customFontSize: '40px' */
@@ -94,7 +94,7 @@ export const homeObjFive = {
     alt: 'Map',
     dark: true,
     primary: true,
-    link:'home',
+    link:'contact',
     darkText: false
 };
 

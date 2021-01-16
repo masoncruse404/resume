@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from '../ButtonElements';
-import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine,Heading,BtnWrap,ImgWrap,Img, Subtitle} from './InfoElements'
+import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine,Heading,BtnWrap,ImgWrap,Img, Subtitle,MyLink} from './InfoElements'
 const InfoSection = ({headlineFontSize,customFontSize,lightBg,id, imgStart, topLine, headline, darkText, description, buttonLabel, link,img, alt,lightText, primary, dark, dark2}) => {
     return (
         <>
@@ -13,7 +13,7 @@ const InfoSection = ({headlineFontSize,customFontSize,lightBg,id, imgStart, topL
                          <Heading headlineFontSize={headlineFontSize}lightText={lightText}>{headline}</Heading>
                          <Subtitle darkText={darkText}>{description}</Subtitle>
                          <BtnWrap>
-                             <Button to={link}
+                             <MyLink href={link}
                              smooth={true}
                              duration={500}
                              spy={true}
@@ -22,8 +22,8 @@ const InfoSection = ({headlineFontSize,customFontSize,lightBg,id, imgStart, topL
                              primary={primary ? 1 : 0}
                              dark={dark ? 1 : 0}
                              dark2={dark2 ? 1 : 0}
-                             
-                             >{buttonLabel}</Button>
+                             target="_blank"
+                             >{buttonLabel}</MyLink>
                          </BtnWrap>
                      </TextWrapper>
                      </Column1>
