@@ -50,7 +50,7 @@ export const HeroContent = styled.div`
  max-width:1200px;
  position:absolute;
  bottom:0;
- margin-bottom:125px;
+ margin-bottom:200px;
  padding: 18px 24px;
  display:flex;
  flex-direction:column;
@@ -61,7 +61,7 @@ export const HeroH1 = styled.h1`
  position:absolute;
  top:80;
  margin-bottom:20px;
- color:#fff;
+ color:black;
  font-size:48px;
  text-align:center;
  
@@ -76,7 +76,7 @@ export const HeroH1 = styled.h1`
 
 export const HeroP = styled.p`
 
- color:#fff;
+ color:black;
  font-size:24px;
  text-align:center;
  max-width:600px;
