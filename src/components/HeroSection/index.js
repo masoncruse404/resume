@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { FaArrowRight } from 'react-icons/fa';
-import Video from '../../videos/video1.mp4'
-import {HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP,HeroBtnWrapper, ArrowForward, ArrowRight, HeroInfoWrap} from './HeroElements';
+import IMG from '../../images/hero1.jpg';
+import {HeroContainer, HeroBg, ImageBg, HeroContent, HeroH1, HeroP,HeroBtnWrapper, ArrowForward, ArrowRight, HeroInfoWrap} from './HeroElements';
 import { Button } from '../ButtonElements';
 
 const HeroSection = () => {
@@ -14,7 +14,7 @@ const HeroSection = () => {
     return (
         <HeroContainer id="home">
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+                <ImageBg  src={IMG} />
             </HeroBg>
             <HeroH1>Web Design Made Easy</HeroH1>
             <HeroContent>
